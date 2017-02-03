@@ -1,0 +1,250 @@
+# Logfile created on 2017-02-03 04:58:15 +0100 by logger.rb/47272
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Reading configuration from config/newrelic.yml (/Volumes/WORK/RUBY/survey-demo-master)
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : New Relic Agent Developer Mode enabled.
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Environment: development
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : No known dispatcher detected.
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Application: My Application (Development)
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing ActiveJob instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Net instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Rails 4 view instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Finished instrumentation
+[2017-02-03 04:58:15 +0100 gabris-iMac.local (15762)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-03 04:58:22 +0100 gabris-iMac.local (15762)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-03 04:59:19 +0100 gabris-iMac.local (15791)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-03 04:59:19 +0100 gabris-iMac.local (15791)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-03 04:59:19 +0100 gabris-iMac.local (15791)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-03 04:59:24 +0100 gabris-iMac.local (15791)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-03 05:04:30 +0100 gabris-iMac.local (15790)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-03 05:04:30 +0100 gabris-iMac.local (15790)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-03 05:04:30 +0100 gabris-iMac.local (15790)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-03 05:04:35 +0100 gabris-iMac.local (15790)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-03 07:45:53 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 07:45:53 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 120.008332 seconds: execution expired
+[2017-02-03 07:45:57 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 07:45:57 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 120.00818 seconds: execution expired
+[2017-02-03 07:46:08 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 07:46:08 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 120.00731 seconds: execution expired
+[2017-02-03 12:13:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:13:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.006668 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:13:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:13:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004526 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:13:12 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:13:12 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005243 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:13:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:13:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.000872 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:13:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:13:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004216 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:13:42 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:13:42 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.003906 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:14:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:14:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005208 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:14:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:14:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00432 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:14:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:14:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005775 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:14:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:14:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.002474 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:14:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:14:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004122 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:15:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001128 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:15:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005809 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:15:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00588 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:15:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005338 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:15:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00581 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:15:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:15:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.003095 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:16:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.007052 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:16:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.002568 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:16:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.006996 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:16:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009442 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:16:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010099 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:16:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:16:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.002728 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:17:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009942 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:17:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.01093 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:17:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005487 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:17:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.008753 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:17:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005536 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:17:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:17:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011549 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:18:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.007303 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:18:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009359 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:18:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010928 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:18:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004548 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:18:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00623 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:18:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:18:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011338 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:19:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011199 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:19:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011071 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:19:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00852 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:19:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009974 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:19:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.003056 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:19:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:19:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009301 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:20:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001476 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:20:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005014 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:20:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.008042 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:20:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010481 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:20:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.000335 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:20:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:20:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00758 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:21:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011229 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:21:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009163 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:21:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.003956 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:21:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005411 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:21:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009184 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:21:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:21:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010149 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:22:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009514 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:22:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004386 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:22:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010622 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:22:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.0062 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:22:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009781 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:22:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:22:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009381 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:23:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009909 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:23:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.0077 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:23:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011458 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:23:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004298 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:23:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004347 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:23:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:23:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009147 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:24:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.0098 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:24:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010468 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:24:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009911 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:24:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.011793 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:24:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00687 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:24:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:24:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004034 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:25:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005953 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:25:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.007888 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:25:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004675 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:25:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.002228 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:25:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00876 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:25:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:25:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.006958 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:26:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001839 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:26:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.009797 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:26:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.010539 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:26:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001719 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:26:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.004719 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:26:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:26:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.006617 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:27:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005446 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:27:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.002454 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:27:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001617 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:31 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:27:31 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005204 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:32 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:27:32 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.003672 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:27:40 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:27:40 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.006274 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:28:01 +0100 gabris-iMac.local (15762)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:28:01 +0100 gabris-iMac.local (15762)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.00296 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:28:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-02-03 12:28:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.005964 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:28:10 +0100 gabris-iMac.local (15790)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:28:10 +0100 gabris-iMac.local (15790)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 30.001631 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-02-03 12:30:02 +0100 gabris-iMac.local (15791)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-02-03 12:30:02 +0100 gabris-iMac.local (15791)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-255.newrelic.com:443 after 120.002633 seconds: execution expired
+[2017-02-03 15:05:32 +0100 gabris-iMac.local (15791)] INFO : Starting Agent shutdown
+[2017-02-03 15:05:32 +0100 gabris-iMac.local (15790)] INFO : Starting Agent shutdown
+[2017-02-03 15:05:34 +0100 gabris-iMac.local (15762)] INFO : Starting Agent shutdown
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Reading configuration from config/newrelic.yml (/Volumes/WORK/RUBY/railsquiz)
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : New Relic Agent Developer Mode enabled.
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Environment: development
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : No known dispatcher detected.
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Application: My Application (Development)
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing ActiveJob instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Net instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Rails 4 view instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-03 17:28:54 +0100 gabris-iMac.local (23566)] INFO : Finished instrumentation
+[2017-02-03 17:28:55 +0100 gabris-iMac.local (23566)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-03 17:29:00 +0100 gabris-iMac.local (23566)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-03 17:29:02 +0100 gabris-iMac.local (23596)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-03 17:29:02 +0100 gabris-iMac.local (23596)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-03 17:29:02 +0100 gabris-iMac.local (23596)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-03 17:29:08 +0100 gabris-iMac.local (23596)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-03 17:31:40 +0100 gabris-iMac.local (23595)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-03 17:31:40 +0100 gabris-iMac.local (23595)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-03 17:31:40 +0100 gabris-iMac.local (23595)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-03 17:31:45 +0100 gabris-iMac.local (23595)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657

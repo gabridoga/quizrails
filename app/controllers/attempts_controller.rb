@@ -14,11 +14,15 @@ class AttemptsController < ApplicationController
   end
 
   def new
+    if signed_in?
     @participant = current_user
 
     unless @survey.nil?
       @attempt = @survey.attempts.new
       @attempt.answers.build
+    end
+    else
+      redirect_to signin_path
     end
   end
 

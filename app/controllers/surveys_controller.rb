@@ -9,10 +9,13 @@ class SurveysController < ApplicationController
   end
 
   def new
+
     @survey = Survey::Survey.new(survey_type: view_context.get_survey_type(params[:type]))
+
   end
 
   def create
+
     @survey = Survey::Survey.new(params_whitelist)
     if @survey.valid? && @survey.save
       default_redirect
@@ -20,6 +23,7 @@ class SurveysController < ApplicationController
       build_flash(@survey)
       render :new
     end
+
   end
 
   def edit

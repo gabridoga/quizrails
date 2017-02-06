@@ -14,26 +14,40 @@
         <ul class="nav navbar-nav">
           <li class="<%= is_active?(surveys_path) %>">
             <%= link_to surveys_path do %>
-              All Quizs
+              Quizzes Management
               <span class='badge'> <%= surveys_count %> </span>
             <% end -%>
           </li>
-          <li>
-          <%= link_to 'Create Quiz', new_survey_path(type: 'quiz') %>  
+          <% if signed_in? %>
+          <% if current_user.admin? %>
+          <li class="quiz_nav">
+            <%= link_to 'Create Quiz', new_survey_path(type: 'quiz') %>
           </li>
-          
+          <li>
+            <%= link_to 'Add User', admin_path%>
+          </li>
+          <li>
+            <%= link_to 'User management', users_path%>
+          </li>
+          <% end %>
+          <% end %>
         </ul>
-        <% if current_user %>
+
           <ul class="nav navbar-nav navbar-right">
-            <li>
+            <% if signed_in? %>
+            <li class="quiz_nav">
               <p class="navbar-text">
-                Logged in as:
-                <b> <%= current_user.name %> </b>
-                <%= link_to '(change name)', '#', 'data-toggle': 'modal', 'data-target': '#submit-name-modal' %>
+                <%= @current_user.name %><br>
               </p>
             </li>
+            <li class="quiz_nav">
+              <%= link_to "Sign out", signout_path, method: "delete" %>
+            </li>
+            <% else %>
+            <li class="quiz_nav"><%= link_to "Sign in", signin_path %></li>
+            <% end %>
           </ul>
-        <% end %>
+
       </div>
     </div>
   </div>

@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+  <div class="col-sm-3"></div>
+
+    <div class="col-sm-6">
+    <br>
+    <br>
+<h4>User Name:&nbsp;&nbsp;</h4><%= @user.name %>&nbsp;&nbsp;<%= @user.lastname %><br>
+<h4>Email:&nbsp;&nbsp;</h4><%= @user.email %><br><br><br>
+<% if @attempt==nil %>
+<h4>User have not any attempt</h4>
+<% else %>
+<h2 class="survey-title">
+  Quiz title:&nbsp;<%= @attempt.survey.name %>
+  <p><small>Quiz description:&nbsp;<%= @attempt.survey.description %></small></p>
+</h2>
+<br>
+<p>Questions:</p>
+<br>
+<ol class="questions">
+  <% @attempt.answers.each do |answer| %>
+      <li>
+        <p class="question"> <%= answer.question.text %> </p>
+        <ul class="options">
+          <% answer.question.options.each do |option| %>
+              <li class="radio">
+                <label>
+                  <%= radio_button_tag '', '', the_chosen_one?(answer, option), disabled: true %>
+                  <% color = get_color_of_option(answer, option) %>
+                  <span class="<%= color %> <%= the_chosen_one?(answer, option) %>"> <%= option.text %> <%= get_weight(option) %> </span>
+                </label>
+                <p class="answers-number"> <%= number_of_people_who_also_answered(option.id) %> </p>
+              </li>
+          <% end %>
+        </ul>
+      </li>
+  <% end %>
+  <ol>
+<% end %>
+    </div>
+  <div class="col-sm-3"></div>
+ </div>
+</div>

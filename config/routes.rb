@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :sessions, only: [:new, :create, :destroy]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -7,11 +9,11 @@ Rails.application.routes.draw do
   root 'surveys#index'
   resources 'surveys'
   resources 'attempts'
-  resources 'users', only: [:create]
-
+  resources 'users'
+  match '/admin',  to: 'users#new',            via: 'get'
+  match '/signin',  to: 'sessions#new',         via: 'get'
+  match '/signout', to: 'sessions#destroy',     via: 'delete'
   delete 'attempts/:survey_id/:user_id' => 'attempts#delete_user_attempts', as: :delete_user_attempts
-  post 'user/:id/change_name' => 'users#change_name', as: :change_user_name
-
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

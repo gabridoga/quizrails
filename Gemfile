@@ -24,12 +24,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'puma' # app server
-gem 'survey' # app gem
+# app gem
+gem 'survey'
+gem 'toastr-rails'
 gem 'twitter-bootstrap-rails'
 gem 'kaminari' # pagination
 gem 'rails4_client_side_validations', '~> 4.2'
 gem 'newrelic_rpm' # new relic instrumentation (heroku plugin)
-
+gem 'bcrypt', '~> 3.1.7'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

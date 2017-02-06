@@ -6,13 +6,9 @@
   <% elsif @survey.avaliable_for_participant?(@participant) %>
     <%= render 'form' %>
   <% else %>
-    <p>
-      You have spent all the possible attempts to answer this Survey
-    </p>
-    <p>
-      <%= link_to delete_user_attempts_path(@survey.id, session[:user_id]), method: :delete do %>
-        Click here to reset the attempts
-      <% end %>
-    </p>
-  <% end -%>
+    <script>
+      window.alert("Your attempts is limitted for this Quiz")
+      window.location.href = "/surveys";
+    </script>
+  <% end %>
 </div>

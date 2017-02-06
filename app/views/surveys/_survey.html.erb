@@ -3,7 +3,9 @@
   <td> <span class="survey-description"> <%= "#{survey.description}" %> </span> </td>
   <td class="table-center"> <%= number_of_questions(survey) %> </td>
   <td class="table-center"> <%= number_of_attempts(survey) %> </td>
-  
+
+  <% if signed_in? %>
+  <% if current_user.admin? %>
   <td class="table-center survey-buttons">
     <div class="btn-group" role="group">
       <%= link_to edit_survey_path(survey.id), class: 'btn btn-default btn-sm' do %>
@@ -15,4 +17,7 @@
       <% end %>
     </div>
   </td>
+  <% end %>
+  <% end %>
+
 </tr>

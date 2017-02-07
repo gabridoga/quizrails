@@ -18028,3 +18028,811 @@ Processing by UsersController#show as HTML
   Rendered shared/_navbar.html.erb (4.6ms)
   Rendered shared/_footer.html.erb (0.6ms)
 Completed 200 OK in 76ms (Views: 69.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:28:53 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 56.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:30:26 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 75ms (Views: 71.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:31:20 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:31:59 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-06 17:32:12 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:32:14 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:32:16 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Attempt Load (0.4ms)[0m  SELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1
+  [1m[36mSurvey::Survey Load (0.4ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Answer Load (0.4ms)[0m  SELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15
+  [1m[36mSurvey::Question Load (0.3ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.4ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16
+  Rendered users/show.html.erb within layouts/application (9.2ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (4.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 57.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:33:46 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSurvey::Attempt Load (0.7ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Survey Load (0.4ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Answer Load (0.3ms)[0m  [1mSELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15[0m
+  [1m[35mSurvey::Question Load (0.2ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Option Load (0.3ms)[0m  [1mSELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16[0m
+  Rendered users/show.html.erb within layouts/application (11.3ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 75ms (Views: 67.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:34:37 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSurvey::Attempt Load (0.2ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Survey Load (0.3ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Answer Load (0.2ms)[0m  [1mSELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15[0m
+  [1m[35mSurvey::Question Load (0.2ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Option Load (0.3ms)[0m  [1mSELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16[0m
+  Rendered users/show.html.erb within layouts/application (8.9ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 136ms (Views: 131.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/survey.self-5a4ed7c840cd0fb23e28f03732d6c5562febc3cbb7c449b5fde6552aadd976e6.css?body=1" for 127.0.0.1 at 2017-02-06 17:34:37 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:35:29 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Attempt Load (0.3ms)[0m  SELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Answer Load (0.4ms)[0m  SELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15
+  [1m[36mSurvey::Question Load (0.4ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16
+  Rendered users/show.html.erb within layouts/application (11.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 141ms (Views: 135.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/survey.self-4de02e3a982ac20179d5d7c24a0b6affe99be4f25ce17f916ffe304520131b79.css?body=1" for 127.0.0.1 at 2017-02-06 17:35:29 +0100
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:35:41 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Attempt Load (0.4ms)[0m  SELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Answer Load (0.4ms)[0m  SELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15
+  [1m[36mSurvey::Question Load (0.2ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16
+  Rendered users/show.html.erb within layouts/application (8.1ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 128ms (Views: 122.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/survey.self-f52d736511fb14b4830b992d616ab24234a410a1e2becfac936c817dc800ec89.css?body=1" for 127.0.0.1 at 2017-02-06 17:35:41 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:39:25 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 17:39:34 +0100
+Processing by SurveysController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count[0m
+  [1m[35mSurvey::Survey Load (0.3ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered surveys/_survey.html.erb (8.9ms)
+  Rendered surveys/index.html.erb within layouts/application (14.9ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 61.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-06 17:39:51 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/new.html.erb within layouts/application (4.4ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:39:52 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 3.3ms)
+
+
+Started DELETE "/users/2" for 127.0.0.1 at 2017-02-06 17:40:04 +0100
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ko6lHs/SawL7kVdiZ/lxc3I9iB0X0CWAFQ/u2pOyFbu13BaaL9R4uLLPmOqypD311GHGT+MEahw9Pd6JixEpkw==", "id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 2[0m
+  [1m[35m (9.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/users
+Completed 302 Found in 17ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 17:40:04 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 17:40:18 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSurvey::Attempt Load (0.3ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Survey Load (0.3ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Answer Load (0.2ms)[0m  [1mSELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15[0m
+  [1m[35mSurvey::Question Load (0.2ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Option Load (0.3ms)[0m  [1mSELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16[0m
+  Rendered users/show.html.erb within layouts/application (9.0ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (4.5ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 59.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 17:40:36 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.2ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered surveys/_survey.html.erb (6.0ms)
+  Rendered surveys/index.html.erb within layouts/application (11.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/attempts/new?survey_id=9" for 127.0.0.1 at 2017-02-06 17:40:38 +0100
+Processing by AttemptsController#new as HTML
+  Parameters: {"survey_id"=>"9"}
+  [1m[35mSurvey::Survey Load (0.4ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'[0m
+  Rendered attempts/new.html.erb within layouts/application (2.3ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 58.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 17:40:40 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered surveys/_survey.html.erb (5.5ms)
+  Rendered surveys/index.html.erb within layouts/application (10.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/surveys/9/edit" for 127.0.0.1 at 2017-02-06 17:40:42 +0100
+Processing by SurveysController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mSurvey::Survey Load (0.4ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Question Load (0.3ms)[0m  [1mSELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35mSurvey::Option Load (0.3ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  Rendered surveys/_input_quiz.html.erb (0.5ms)
+  Rendered surveys/_option_fields.html.erb (3.0ms)
+  Rendered surveys/_input_quiz.html.erb (0.7ms)
+  Rendered surveys/_option_fields.html.erb (2.7ms)
+  Rendered surveys/_question_fields.html.erb (10.9ms)
+  Rendered surveys/_input_quiz.html.erb (1.0ms)
+  Rendered surveys/_option_fields.html.erb (2.9ms)
+  Rendered surveys/_question_fields.html.erb (5.6ms)
+  Rendered surveys/_form.html.erb (23.7ms)
+  Rendered surveys/edit.html.erb within layouts/application (24.9ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 76ms (Views: 72.9ms | ActiveRecord: 1.6ms)
+
+
+Started PATCH "/surveys/9" for 127.0.0.1 at 2017-02-06 17:41:05 +0100
+Processing by SurveysController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q9V+XBGEssYP4hcK7Zk7vS/jj+fioDsWPksKxOXLcaM0h83Y8YKhfEa82II4xHc7ib/BtRZ0dIoWeTqX/WhNiw==", "survey_survey"=>{"survey_type"=>"0", "name"=>"asdf", "attempts_number"=>"4", "active"=>"true", "description"=>"asdf", "questions_attributes"=>{"0"=>{"text"=>"asdf", "options_attributes"=>{"0"=>{"text"=>"asdf", "correct"=>"0", "_destroy"=>"false", "id"=>"16"}, "1486399247807"=>{"text"=>"Hi", "correct"=>"1", "_destroy"=>"false"}}, "_destroy"=>"false", "id"=>"9"}}}, "commit"=>"Submit", "id"=>"9"}
+  [1m[36mSurvey::Survey Load (0.4ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSurvey::Question Load (0.2ms)[0m  [1mSELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9 AND `survey_questions`.`id` = 9[0m
+  [1m[35mSurvey::Option Load (0.4ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9 AND `survey_options`.`id` = 16
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `survey_surveys` SET `attempts_number` = 4, `updated_at` = '2017-02-06 16:41:05' WHERE `survey_surveys`.`id` = 9[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `survey_options` (`text`, `correct`, `question_id`, `created_at`, `updated_at`, `weight`) VALUES ('Hi', 1, 9, '2017-02-06 16:41:05', '2017-02-06 16:41:05', 1)
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/surveys
+Completed 302 Found in 18ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 17:41:05 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.4ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered surveys/_survey.html.erb (5.8ms)
+  Rendered surveys/index.html.erb within layouts/application (12.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 69.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/attempts/new?survey_id=9" for 127.0.0.1 at 2017-02-06 17:41:14 +0100
+Processing by AttemptsController#new as HTML
+  Parameters: {"survey_id"=>"9"}
+  [1m[35mSurvey::Survey Load (0.5ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'[0m
+  [1m[35mSurvey::Question Load (0.3ms)[0m  SELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36mSurvey::Question Load (0.2ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  Rendered attempts/_form.html.erb (12.7ms)
+  Rendered attempts/new.html.erb within layouts/application (15.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 63.2ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/attempts" for 127.0.0.1 at 2017-02-06 17:41:18 +0100
+Processing by AttemptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XKvLiruOQeZLR5+hThyzjuTJTHn7gxNQxzZZgggCjnPD+XgOW4hSXAIZUCmbQf8IQpUCKw9XXMzvBGnREKGyWw==", "survey_id"=>"9", "survey_attempt"=>{"answers_attributes"=>{"9"=>"17"}}, "commit"=>"Submit"}
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mSurvey::Answer Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `survey_answers` WHERE (`survey_answers`.`option_id` = BINARY 17 AND `survey_answers`.`attempt_id` IS NULL AND `survey_answers`.`question_id` = 9) LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM `survey_answers` WHERE (`survey_answers`.`option_id` = BINARY 17 AND `survey_answers`.`attempt_id` IS NULL AND `survey_answers`.`question_id` = 9) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'[0m  [["survey_id", 9], ["participant_id", 1]]
+  [1m[35mSurvey::Option Load (0.3ms)[0m  SELECT  `survey_options`.* FROM `survey_options` WHERE `survey_options`.`id` = 17 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `survey_attempts` (`survey_id`, `participant_id`, `participant_type`, `score`) VALUES (9, 1, 'User', 1)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `survey_answers` (`option_id`, `question_id`, `correct`, `attempt_id`, `created_at`, `updated_at`) VALUES (17, 9, 1, 17, '2017-02-06 16:41:18', '2017-02-06 16:41:18')
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `survey_answers` SET `option_id` = 17, `question_id` = 9, `correct` = 1, `attempt_id` = 17, `created_at` = '2017-02-06 16:41:18', `updated_at` = '2017-02-06 16:41:18', `id` = 16 WHERE `survey_answers`.`id` = 16[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36mSurvey::Question Load (0.3ms)[0m  [1mSELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9 AND `survey_options`.`correct` = 1
+Redirected to http://localhost:3000/attempts/17
+Completed 302 Found in 23ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/attempts/17" for 127.0.0.1 at 2017-02-06 17:41:18 +0100
+Processing by AttemptsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mSurvey::Attempt Load (0.4ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`id` = 17 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mSurvey::Survey Load (0.2ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Answer Load (0.4ms)[0m  SELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 17
+  [1m[36mSurvey::Question Load (0.2ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.3ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 17[0m
+  Rendered attempts/show.html.erb within layouts/application (10.9ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 58.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 17:41:33 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.2ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered surveys/_survey.html.erb (5.1ms)
+  Rendered surveys/index.html.erb within layouts/application (9.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/attempts/new?survey_id=9" for 127.0.0.1 at 2017-02-06 17:41:35 +0100
+Processing by AttemptsController#new as HTML
+  Parameters: {"survey_id"=>"9"}
+  [1m[35mSurvey::Survey Load (0.4ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'[0m
+  [1m[35mSurvey::Question Load (0.3ms)[0m  SELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36mSurvey::Question Load (0.2ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.6ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  Rendered attempts/_form.html.erb (11.5ms)
+  Rendered attempts/new.html.erb within layouts/application (14.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  Rendered shared/_navbar.html.erb (2.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 61.0ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/attempts" for 127.0.0.1 at 2017-02-06 17:41:37 +0100
+Processing by AttemptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qvv1mm0nXdtq4CPEAE/ZiGhRQyNrH1LXiiZtu4quYdXdqUYejSFOYSO+7EzVEpUOzg0NcZ/LHUuiFF3okg1d/Q==", "survey_id"=>"9", "survey_attempt"=>{"answers_attributes"=>{"9"=>"16"}}, "commit"=>"Submit"}
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mSurvey::Answer Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `survey_answers` WHERE (`survey_answers`.`option_id` = BINARY 16 AND `survey_answers`.`attempt_id` IS NULL AND `survey_answers`.`question_id` = 9) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM `survey_answers` WHERE (`survey_answers`.`option_id` = BINARY 16 AND `survey_answers`.`attempt_id` IS NULL AND `survey_answers`.`question_id` = 9) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9 AND `survey_attempts`.`participant_id` = 1 AND `survey_attempts`.`participant_type` = 'User'[0m  [["survey_id", 9], ["participant_id", 1]]
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT  `survey_options`.* FROM `survey_options` WHERE `survey_options`.`id` = 16 LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `survey_attempts` (`survey_id`, `participant_id`, `participant_type`, `score`) VALUES (9, 1, 'User', 0)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `survey_answers` (`option_id`, `question_id`, `correct`, `attempt_id`, `created_at`, `updated_at`) VALUES (16, 9, 0, 18, '2017-02-06 16:41:37', '2017-02-06 16:41:37')
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE `survey_answers` SET `option_id` = 16, `question_id` = 9, `correct` = 0, `attempt_id` = 18, `created_at` = '2017-02-06 16:41:37', `updated_at` = '2017-02-06 16:41:37', `id` = 17 WHERE `survey_answers`.`id` = 17[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mSurvey::Question Load (0.3ms)[0m  [1mSELECT `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9 AND `survey_options`.`correct` = 1
+Redirected to http://localhost:3000/attempts/18
+Completed 302 Found in 20ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/attempts/18" for 127.0.0.1 at 2017-02-06 17:41:37 +0100
+Processing by AttemptsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mSurvey::Attempt Load (0.3ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`id` = 18 LIMIT 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Answer Load (0.2ms)[0m  SELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 18
+  [1m[36mSurvey::Question Load (0.4ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m
+  [1m[35mSurvey::Option Load (0.2ms)[0m  SELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 17[0m
+  Rendered attempts/show.html.erb within layouts/application (9.8ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m  [["remember_token", "2d0a5c7b686dfadc23c810c66055715f5111473e"]]
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 54.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 18:05:12 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_footer.html.erb (0.6ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-06 18:05:14 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSurvey::Attempt Load (0.4ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Survey Load (0.3ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Answer Load (0.2ms)[0m  [1mSELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15[0m
+  [1m[35mSurvey::Question Load (0.2ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Option Load (0.2ms)[0m  [1mSELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 17
+  Rendered users/show.html.erb within layouts/application (10.8ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 62.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-06 18:11:59 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/new.html.erb within layouts/application (19.4ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (3.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-06 18:12:02 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 54.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/surveys/new?type=quiz" for 127.0.0.1 at 2017-02-06 18:12:04 +0100
+Processing by SurveysController#new as HTML
+  Parameters: {"type"=>"quiz"}
+  Rendered surveys/_input_quiz.html.erb (0.6ms)
+  Rendered surveys/_option_fields.html.erb (2.4ms)
+  Rendered surveys/_question_fields.html.erb (4.8ms)
+  Rendered surveys/_form.html.erb (8.6ms)
+  Rendered surveys/new.html.erb within layouts/application (9.7ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-06 18:13:12 +0100
+Processing by SurveysController#index as HTML
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count[0m
+  [1m[35mSurvey::Survey Load (0.2ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered surveys/_survey.html.erb (4.6ms)
+  Rendered surveys/index.html.erb within layouts/application (9.6ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/surveys/new?type=quiz" for 127.0.0.1 at 2017-02-07 00:21:02 +0100
+Processing by SurveysController#new as HTML
+  Parameters: {"type"=>"quiz"}
+  Rendered surveys/_input_quiz.html.erb (0.6ms)
+  Rendered surveys/_option_fields.html.erb (3.5ms)
+  Rendered surveys/_question_fields.html.erb (7.4ms)
+  Rendered surveys/_form.html.erb (15.4ms)
+  Rendered surveys/new.html.erb within layouts/application (17.5ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (4.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-07 00:21:04 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-07 00:21:06 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2017-02-07 00:21:10 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSurvey::Attempt Load (0.4ms)[0m  [1mSELECT  `survey_attempts`.* FROM `survey_attempts` WHERE `survey_attempts`.`participant_id` = 1 LIMIT 1[0m
+  [1m[35mSurvey::Survey Load (0.5ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Answer Load (0.4ms)[0m  [1mSELECT `survey_answers`.* FROM `survey_answers` WHERE `survey_answers`.`attempt_id` = 15[0m
+  [1m[35mSurvey::Question Load (0.4ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1
+  [1m[36mSurvey::Option Load (0.4ms)[0m  [1mSELECT `survey_options`.* FROM `survey_options` WHERE `survey_options`.`question_id` = 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 16[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `survey_questions`.* FROM `survey_questions` WHERE `survey_questions`.`id` = 9 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_answers` WHERE `survey_answers`.`option_id` = 17
+  Rendered users/show.html.erb within layouts/application (15.4ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1
+  Rendered shared/_navbar.html.erb (4.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 77.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-07 00:29:51 +0100
+Processing by SurveysController#index as HTML
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count[0m
+  [1m[35mSurvey::Survey Load (0.4ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  Rendered surveys/_survey.html.erb (5.6ms)
+  Rendered surveys/index.html.erb within layouts/application (13.7ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 75ms (Views: 71.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-07 00:32:50 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = '2d0a5c7b686dfadc23c810c66055715f5111473e' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 64.2ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2017-02-07 00:32:55 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8fSFsoua2btBcZf9IU3hsD1Kf0p19EVDp5hwLwA7PepupjY2a5zKAQgvWHX0EK02mxYxGIEgCt+PqkB8GJgBwg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-07 00:32:55 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+  Rendered surveys/_survey.html.erb (4.5ms)
+  Rendered surveys/index.html.erb within layouts/application (9.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/attempts/new?survey_id=9" for 127.0.0.1 at 2017-02-07 00:32:58 +0100
+Processing by AttemptsController#new as HTML
+  Parameters: {"survey_id"=>"9"}
+  [1m[35mSurvey::Survey Load (0.3ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys` WHERE `survey_surveys`.`id` = 9 LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2017-02-07 00:32:58 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1  [["remember_token", "da39a3ee5e6b4b0d3255bfef95601890afd80709"]]
+  Rendered shared/_navbar.html.erb (3.6ms)
+  Rendered shared/_footer.html.erb (0.8ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2017-02-07 00:32:59 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yE2BhW+ccZUKJXC3wA1waPOe7LCHWtAsH+cYfNZ18j9XHzIBj5piL0N7vz8VUDzuVcKi4nOOn7A31SgvztbOFw==", "session"=>{"email"=>"bestsuperflycode@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"LOGIN"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'bestsuperflycode@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `users` SET `remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee', `updated_at` = '2017-02-06 23:32:59' WHERE `users`.`id` = 1[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/surveys
+Completed 302 Found in 70ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-07 00:32:59 +0100
+Processing by SurveysController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count[0m
+  [1m[35mSurvey::Survey Load (0.2ms)[0m  SELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee' LIMIT 1[0m
+  Rendered surveys/_survey.html.erb (4.2ms)
+  Rendered surveys/index.html.erb within layouts/application (19.6ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-07 00:37:10 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered users/new.html.erb within layouts/application (5.6ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee' LIMIT 1
+  Rendered shared/_navbar.html.erb (4.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/surveys/new?type=quiz" for 127.0.0.1 at 2017-02-07 00:37:11 +0100
+Processing by SurveysController#new as HTML
+  Parameters: {"type"=>"quiz"}
+  Rendered surveys/_input_quiz.html.erb (0.6ms)
+  Rendered surveys/_option_fields.html.erb (2.7ms)
+  Rendered surveys/_question_fields.html.erb (5.6ms)
+  Rendered surveys/_form.html.erb (11.5ms)
+  Rendered surveys/new.html.erb within layouts/application (13.0ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee' LIMIT 1
+  Rendered shared/_navbar.html.erb (5.0ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 79ms (Views: 76.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-02-07 00:37:12 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee' LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 60.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2017-02-07 00:37:13 +0100
+Processing by SurveysController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM `survey_surveys` LIMIT 15 OFFSET 0) subquery_for_count
+  [1m[36mSurvey::Survey Load (0.3ms)[0m  [1mSELECT  `survey_surveys`.* FROM `survey_surveys`  ORDER BY `survey_surveys`.`created_at` DESC LIMIT 15 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `survey_questions` WHERE `survey_questions`.`survey_id` = 9
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `survey_attempts` WHERE `survey_attempts`.`survey_id` = 9[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`remember_token` = 'f40430016ece0956ff7df9d624e7bcdb461bd0ee' LIMIT 1
+  Rendered surveys/_survey.html.erb (4.9ms)
+  Rendered surveys/index.html.erb within layouts/application (10.1ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `survey_surveys` WHERE `survey_surveys`.`survey_type` IN (0, 1, 2)[0m
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 1.8ms)

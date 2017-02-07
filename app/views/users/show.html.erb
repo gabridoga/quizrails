@@ -10,6 +10,7 @@
 <% if @attempt==nil %>
 <h4>User have not any attempt</h4>
 <% else %>
+     <div class="row quiz">
 <h2 class="survey-title">
   Quiz title:&nbsp;<%= @attempt.survey.name %>
   <p><small>Quiz description:&nbsp;<%= @attempt.survey.description %></small></p>
@@ -36,7 +37,9 @@
       </li>
   <% end %>
   <ol>
-<% end %>
+
+     </div>
+    <% end %>
     </div>
   <div class="col-sm-3"></div>
  </div>

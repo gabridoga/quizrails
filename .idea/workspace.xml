@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3f27c1-aea3-4481-807b-91d08be287ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__quizrails.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__quizrails.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__quizrails.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__quizrails.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140917130250_add_index_to_users_email.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140917130856_add_password_digest_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140917141557_add_remember_token_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140919033907_add_admin_to_users.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20150515173554_add_name_to_users.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/db/migrate/20150507141133_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20140917125700_create_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/05/05H_BVSCcOrS0DE6I6y_M6lY1Nn5ZVGHxsQMupfdrfc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/05/05H_BVSCcOrS0DE6I6y_M6lY1Nn5ZVGHxsQMupfdrfc.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/50/50FmReVwIHhlvAuvM-sto5AErg3FNTsg_nrEOCqTmsM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/50/50FmReVwIHhlvAuvM-sto5AErg3FNTsg_nrEOCqTmsM.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6K/6KUYaNEqHbAAJTBbAvUIrpq8Y4hIvUY4zzJo7Mxhrio.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6K/6KUYaNEqHbAAJTBbAvUIrpq8Y4hIvUY4zzJo7Mxhrio.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6g/6gB3Hy0px4T9PITlArD24J0sMe4FMzwaV6gLX8NkTJg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6g/6gB3Hy0px4T9PITlArD24J0sMe4FMzwaV6gLX8NkTJg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HD/HDM3YvZEAXQW576NxbFn7P-CjSW6lme3wmi0Ng4-XBQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HD/HDM3YvZEAXQW576NxbFn7P-CjSW6lme3wmi0Ng4-XBQ.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jq/JqUEMXTuYTQJk8bDMvt-xm0fnpmlT0l69CMIwFIOjKw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jq/JqUEMXTuYTQJk8bDMvt-xm0fnpmlT0l69CMIwFIOjKw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/K4/K4zh-RT-GYDdcEHzcNEwOIAJXYw8g_Zt6Lr31Qvqn-U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/K4/K4zh-RT-GYDdcEHzcNEwOIAJXYw8g_Zt6Lr31Qvqn-U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LU/LUhhiHhh2UNZx1LFhVFDw1NFVxrMlGtOR6QM8YPq3Js.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LU/LUhhiHhh2UNZx1LFhVFDw1NFVxrMlGtOR6QM8YPq3Js.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T9/T9-4TfNVWK_rUHC79CkGEPVfVJuC4us58TL9FxFbm4U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T9/T9-4TfNVWK_rUHC79CkGEPVfVJuC4us58TL9FxFbm4U.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uj/UjTxPa_44ZXTCQ8zJYIB48IL5xgzA8xxI3TkdWIbzsg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uj/UjTxPa_44ZXTCQ8zJYIB48IL5xgzA8xxI3TkdWIbzsg.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yg/YgahrMGJ8DOmyMEeYYyj44xy_qka9aar4g4meB1XwsA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yg/YgahrMGJ8DOmyMEeYYyj44xy_qka9aar4g4meB1XwsA.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Z2/Z2sK3gXXSzbW3knNj4e68FQLyFQBcqoihmv2kLSfU3Y.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Z2/Z2sK3gXXSzbW3knNj4e68FQLyFQBcqoihmv2kLSfU3Y.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zx/Zx1n_eSnoYxmKsL1wahZJjnGBFMZhGUQz-91uJ7zJXs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zx/Zx1n_eSnoYxmKsL1wahZJjnGBFMZhGUQz-91uJ7zJXs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aOTEAjqmqjG53eeipdfM4xmhkKEQPY0JRTojQXVzZpE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aOTEAjqmqjG53eeipdfM4xmhkKEQPY0JRTojQXVzZpE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/at/at2HXOn2kIrBSH-_lHTW_C70zwkNSpNZpzLOjfksL30.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/at/at2HXOn2kIrBSH-_lHTW_C70zwkNSpNZpzLOjfksL30.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bP/bPrkgUz8l_STULdFwFVMRaqsKIlHlZoLM38HCIDejv0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bP/bPrkgUz8l_STULdFwFVMRaqsKIlHlZoLM38HCIDejv0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dx/dxMEeqN6topHlOqz44VGlRatPKTcj6JDoDIOhcFoH5A.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dx/dxMEeqN6topHlOqz44VGlRatPKTcj6JDoDIOhcFoH5A.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ek/ekGnd-wxv21MXo6FeuvHlav-Tsekc2P6mwJ2ZM2whJY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ek/ekGnd-wxv21MXo6FeuvHlav-Tsekc2P6mwJ2ZM2whJY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/h6/h6QjDVF_1Cb9RVmX8Q2anOB44v-Yn2x20r-SDLlY3qY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/h6/h6QjDVF_1Cb9RVmX8Q2anOB44v-Yn2x20r-SDLlY3qY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iZ/iZsGgwK1NSnOjRysIIcoU3Aq88nekg2sYYcZV1WkR_g.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iZ/iZsGgwK1NSnOjRysIIcoU3Aq88nekg2sYYcZV1WkR_g.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ic/icOWig_s8Sc_pR68TDy-4XfGJ-wvIr6iE1o0CMeVKrY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ic/icOWig_s8Sc_pR68TDy-4XfGJ-wvIr6iE1o0CMeVKrY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kh/khyA6-9gzmnh423JP08bH119s9lBrRDosb3SH3wNfbc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kh/khyA6-9gzmnh423JP08bH119s9lBrRDosb3SH3wNfbc.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kp/kpDFED5Iah-8znLCADO9igTN9gWa4D1vTEua-D72crE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kp/kpDFED5Iah-8znLCADO9igTN9gWa4D1vTEua-D72crE.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kt/ktyCDPqQ-I5J-yOsWrCAkdXLRtU42ApQHB-VX8ONDXY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kt/ktyCDPqQ-I5J-yOsWrCAkdXLRtU42ApQHB-VX8ONDXY.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uy/uyLm-yuOOXPsqvnWwsILJcgT8gjcG69gW86tCY_JEZ0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uy/uyLm-yuOOXPsqvnWwsILJcgT8gjcG69gW86tCY_JEZ0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vI/vIf-l9pobS0vyZVSXX9toWr8tPAYiFKqXCriP97W-aI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vI/vIf-l9pobS0vyZVSXX9toWr8tPAYiFKqXCriP97W-aI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yv/yvC4yVdiuO06BpaO2SZeNnr8qGrCrZCgXlPWvXe5J6E.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yv/yvC4yVdiuO06BpaO2SZeNnr8qGrCrZCgXlPWvXe5J6E.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/survey.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/survey.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/attempts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/attempts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/attempts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/attempts/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/_survey.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/_survey.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/surveys/new.html.erb" afterPath="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/newrelic_agent.log" afterPath="$PROJECT_DIR$/log/newrelic_agent.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
     </list>
     <ignored path="quizrails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,30 +29,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <element signature="e#135#141#0#HTML" expanded="true" />
-                <element signature="e#141#147#0#HTML" expanded="true" />
-                <element signature="e#169#175#0#HTML" expanded="true" />
-                <element signature="e#175#181#0#HTML" expanded="true" />
-                <element signature="e#217#223#0#HTML" expanded="true" />
-                <element signature="e#223#229#0#HTML" expanded="true" />
-                <element signature="e#373#379#0#HTML" expanded="true" />
-                <element signature="e#436#442#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <file leaf-file-name="surveys_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="-165">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attempts_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/attempts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/survey.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -157,7 +125,6 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170205150703_add_lastname_to_users.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/survey.scss" />
         <option value="$PROJECT_DIR$/app/views/surveys/_survey.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170206024107_add_user_to_survey_survey.rb" />
@@ -166,13 +133,15 @@
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/attempts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/attempts_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/attempts/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/survey.scss" />
+        <option value="$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/survey-0.2/app/models/survey/survey.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/attempts_controller.rb" />
       </list>
     </option>
   </component>
@@ -183,8 +152,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="481" />
-    <option name="y" value="222" />
+    <option name="x" value="231" />
+    <option name="y" value="131" />
     <option name="width" value="1492" />
     <option name="height" value="959" />
   </component>
@@ -241,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,65 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attempts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quizrails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,6 +247,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quizrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quizrails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,15 +487,15 @@
       <option name="presentableId" value="Default" />
       <updated>1486166406006</updated>
       <workItem from="1486166408965" duration="25794000" />
-      <workItem from="1486304110252" duration="18812000" />
+      <workItem from="1486304110252" duration="23511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44606000" />
+    <option name="totallyTimeSpent" value="49305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="481" y="222" width="1492" height="959" extended-state="0" />
+    <frame x="231" y="131" width="1492" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34986594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -600,7 +533,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/user_registration_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/helpers/surveys_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -793,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/survey.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -821,14 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -873,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/attempts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -893,14 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -929,10 +822,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/attempts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/survey.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/survey-0.2/app/models/survey/survey.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -945,18 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#135#141#0#HTML" expanded="true" />
             <element signature="e#141#147#0#HTML" expanded="true" />
@@ -964,9 +881,33 @@
             <element signature="e#175#181#0#HTML" expanded="true" />
             <element signature="e#217#223#0#HTML" expanded="true" />
             <element signature="e#223#229#0#HTML" expanded="true" />
-            <element signature="e#373#379#0#HTML" expanded="true" />
-            <element signature="e#436#442#0#HTML" expanded="true" />
+            <element signature="e#401#407#0#HTML" expanded="true" />
+            <element signature="e#464#470#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/attempts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

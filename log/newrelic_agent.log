@@ -1294,3 +1294,6 @@
 [2017-02-06 04:21:36 +0100 gabris-iMac.local (6498)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
 [2017-02-06 04:21:36 +0100 gabris-iMac.local (6498)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
 [2017-02-06 04:21:39 +0100 gabris-iMac.local (6498)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-07 02:17:30 +0100 gabris-iMac.local (6499)] INFO : Starting Agent shutdown
+[2017-02-07 02:17:30 +0100 gabris-iMac.local (6498)] INFO : Starting Agent shutdown
+[2017-02-07 02:17:30 +0100 gabris-iMac.local (6470)] INFO : Starting Agent shutdown

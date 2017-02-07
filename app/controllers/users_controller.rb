@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @attempt = Survey::Attempt.find_by(participant_id: params[:id])
+    @attempt = Survey::Attempt.where(participant_id: params[:id])
 
   end
 

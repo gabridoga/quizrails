@@ -6,7 +6,6 @@
     <th>First Name</th>
     <th>Last Name</th>
     <th>Email</th>
-    <th>Atempts</th>
     <td></td>
   </tr>
   </thead>
@@ -16,8 +15,7 @@
        <td> <%= link_to user.name, user %></td>
        <td><%= user.lastname %></td>
        <td><%= user.email %></td>
-       <td>3</td>
-        <% if current_user.admin? && !current_user?(user) %>
+       <% if current_user.admin? && !current_user?(user) %>
             <td><%= link_to "delete", user, method: :delete,
                           data: { confirm: "User will remove on our app. You sure?" } %></td>
         <% end %>

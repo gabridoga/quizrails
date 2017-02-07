@@ -37,7 +37,9 @@
             <% if signed_in? %>
             <li class="quiz_nav">
               <p class="navbar-text">
-                <%= @current_user.name %><br>
+                <%= link_to @current_user.name, user_path(@current_user.id) %>
+
+                <br>
               </p>
             </li>
             <li class="quiz_nav">

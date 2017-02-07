@@ -13,62 +13,62 @@
 
 ActiveRecord::Schema.define(version: 20170205150703) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "survey_answers", force: :cascade do |t|
-    t.integer  "attempt_id",  limit: 4
-    t.integer  "question_id", limit: 4
-    t.integer  "option_id",   limit: 4
-    t.boolean  "correct",     limit: 1
+    t.integer  "attempt_id"
+    t.integer  "question_id"
+    t.integer  "option_id"
+    t.boolean  "correct"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "survey_attempts", force: :cascade do |t|
-    t.integer "participant_id",   limit: 4
-    t.string  "participant_type", limit: 255
-    t.integer "survey_id",        limit: 4
-    t.boolean "winner",           limit: 1
-    t.integer "score",            limit: 4
+    t.integer "participant_id"
+    t.string  "participant_type"
+    t.integer "survey_id"
+    t.boolean "winner"
+    t.integer "score"
   end
 
   create_table "survey_options", force: :cascade do |t|
-    t.integer  "question_id", limit: 4
-    t.integer  "weight",      limit: 4,   default: 0
-    t.string   "text",        limit: 255
-    t.boolean  "correct",     limit: 1
+    t.integer  "question_id"
+    t.integer  "weight",      default: 0
+    t.string   "text"
+    t.boolean  "correct"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "survey_questions", force: :cascade do |t|
-    t.integer  "survey_id",  limit: 4
-    t.string   "text",       limit: 255
+    t.integer  "survey_id"
+    t.string   "text"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "survey_surveys", force: :cascade do |t|
-    t.string   "name",            limit: 255
-    t.text     "description",     limit: 65535
-    t.integer  "attempts_number", limit: 4,     default: 0
-    t.boolean  "finished",        limit: 1,     default: false
-    t.boolean  "active",          limit: 1,     default: false
+    t.string   "name"
+    t.text     "description"
+    t.integer  "attempts_number", default: 0
+    t.boolean  "finished",        default: false
+    t.boolean  "active",          default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "survey_type",     limit: 4
-    t.integer  "users_id",        limit: 4
+    t.integer  "survey_type"
   end
 
-  add_index "survey_surveys", ["users_id"], name: "index_survey_surveys_on_users_id", using: :btree
-
   create_table "users", force: :cascade do |t|
-    t.string   "name",            limit: 255
-    t.string   "email",           limit: 255
+    t.string   "name"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "password_digest", limit: 255
-    t.string   "remember_token",  limit: 255
-    t.boolean  "admin",           limit: 1,   default: false
-    t.string   "lastname",        limit: 255
+    t.string   "password_digest"
+    t.string   "remember_token"
+    t.boolean  "admin",           default: false
+    t.string   "lastname"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

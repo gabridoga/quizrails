@@ -32,6 +32,7 @@ gem 'kaminari' # pagination
 gem 'rails4_client_side_validations', '~> 4.2'
 gem 'newrelic_rpm' # new relic instrumentation (heroku plugin)
 gem 'bcrypt', '~> 3.1.7'
+gem 'pg'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -61,6 +62,5 @@ end
 
 group :production do
   gem 'rails_12factor', group: :production
-  gem 'pg'
-end
+  end
 ruby "2.2.0"

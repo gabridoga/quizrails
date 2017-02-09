@@ -1647,3 +1647,30 @@
 [2017-02-09 13:26:36 +0100 gabris-iMac.local (75698)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
 [2017-02-09 13:26:43 +0100 gabris-iMac.local (75715)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
 [2017-02-09 13:26:45 +0100 gabris-iMac.local (75715)] INFO : Starting Agent shutdown
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Reading configuration from config/newrelic.yml (/Volumes/WORK/RUBY/quizrails)
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : New Relic Agent Developer Mode enabled.
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Environment: development
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : No known dispatcher detected.
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Application: My Application (Development)
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing ActiveJob instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Net instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Rails 4 view instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-09 13:27:58 +0100 gabris-iMac.local (75798)] INFO : Finished instrumentation
+[2017-02-09 13:27:59 +0100 gabris-iMac.local (75798)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-09 13:28:03 +0100 gabris-iMac.local (75798)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75826)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75826)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75826)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75827)] WARN : Ignoring addition of NewRelic::Agent::Samplers::CpuSampler because it is already registered.
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75827)] WARN : Ignoring addition of NewRelic::Agent::Samplers::MemorySampler because it is already registered.
+[2017-02-09 13:28:23 +0100 gabris-iMac.local (75827)] WARN : Ignoring addition of NewRelic::Agent::Samplers::VMSampler because it is already registered.
+[2017-02-09 13:28:29 +0100 gabris-iMac.local (75827)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[2017-02-09 13:28:31 +0100 gabris-iMac.local (75826)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657

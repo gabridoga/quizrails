@@ -26,8 +26,19 @@
             <% @attempt.each do |attemp| %>
                 <tr>
                   <td><%= attemp.survey.name %></td>
-                  <td><%= score_calculate(attemp.survey_id)/attemp.survey.attempts_number.to_f*100 %>&nbsp;%</td>
                   <td><small>Quiz description:&nbsp;<%= attemp.survey.description %></small></td>
+                  <%
+                    total_answer = 0
+                    attemp.answers.each do |answer|
+                        answer.question.options.each do |option|
+                          answer1=answered_count(option.id)
+                          total_answer += answer1
+                        end
+                   end
+
+                  %>
+                  <td><%= ((total_answer-score_calculate(attemp.survey_id))*0.5+score_calculate(attemp.survey_id))/attemp.survey.attempts_number.to_f*100 %>&nbsp;%</td>
+
                   <td>
 
                     <% attemp.answers.each do |answer| %>

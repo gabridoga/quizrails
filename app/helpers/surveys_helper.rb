@@ -50,6 +50,10 @@ module SurveysHelper
     count = number_of_people_who_also_answered_count(option_id)
     "<span class='number'> #{count} </span> #{'answer'.pluralize}".html_safe
   end
+  def answered_count option_id
+    count_total = number_of_people_who_also_answered_count(option_id)
+    return count_total
+  end
   def score_calculate survey_id
   score_count=score_calculate_count(survey_id)
   return score_count

@@ -42,4 +42,7 @@ module ApplicationHelper
   def number_of_people_who_also_answered_count option_id
     Survey::Answer.where(option_id: option_id).count
   end
+  def score_calculate_count survey_id
+    Survey::Attempt.where(survey_id:survey_id).sum(:score)
+  end
 end

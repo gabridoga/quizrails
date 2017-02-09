@@ -17,6 +17,7 @@
             <tr>
               <th>Quiz title</th>
               <th>Description</th>
+              <th>Score</th>
               <th>Question with result</th>
               <th>Attemps</th>
             </tr>
@@ -25,6 +26,7 @@
             <% @attempt.each do |attemp| %>
                 <tr>
                   <td><%= attemp.survey.name %></td>
+                  <td><%= score_calculate(attemp.survey_id)/attemp.survey.attempts_number.to_f*100 %>&nbsp;%</td>
                   <td><small>Quiz description:&nbsp;<%= attemp.survey.description %></small></td>
                   <td>
 

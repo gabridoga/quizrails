@@ -50,7 +50,10 @@ module SurveysHelper
     count = number_of_people_who_also_answered_count(option_id)
     "<span class='number'> #{count} </span> #{'answer'.pluralize}".html_safe
   end
-
+  def score_calculate survey_id
+  score_count=score_calculate_count(survey_id)
+  return score_count
+  end
   def get_color_of_option answer, option
     if is_quiz?(answer.question.survey.survey_type)
       if option.correct

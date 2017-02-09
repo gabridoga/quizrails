@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'contests/new'
+
+  # post 'contests/create', as: :contests_survey_attempts
+
   resources :sessions, only: [:new, :create, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
